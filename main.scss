@@ -27,6 +27,7 @@ body{
             font-size: 2rem;
             border: none;
             background: white;
+            background-color: #fff;
         }
         button{
             padding: .5rem;
@@ -143,6 +144,7 @@ body{
                 }
             }
             .select{
+                background: white;
                 select{
                     padding: .5rem;
                 }
