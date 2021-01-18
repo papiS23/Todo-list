@@ -223,5 +223,11 @@ body footer p a {
   body .todo-container .todo-list .todo {
     font-size: 1rem;
   }
+  body footer p {
+    font-size: 0.5rem;
+  }
+  body footer p a {
+    font-size: 0.5rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
