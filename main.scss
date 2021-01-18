@@ -78,7 +78,7 @@ body{
     .todo-container{
         display: flex;
         justify-content: center;
-        align-items: center;
+        min-height: 50vh;
         .todo-list{
             min-width: 30%;
             list-style: none;
@@ -125,6 +125,18 @@ body{
             .fall{
                 transform: translateY(8rem) rotateZ(20deg);
                 opacity: 0;
+            }
+        }
+    }
+    footer{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            a{
+                color: white;
+                text-decoration: none;
             }
         }
     }

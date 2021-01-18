@@ -105,9 +105,7 @@ body .todo-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  min-height: 50vh;
 }
 
 body .todo-container .todo-list {
@@ -175,6 +173,24 @@ body .todo-container .todo-list .fall {
   -webkit-transform: translateY(8rem) rotateZ(20deg);
           transform: translateY(8rem) rotateZ(20deg);
   opacity: 0;
+}
+
+body footer {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer p a {
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {
