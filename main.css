@@ -39,6 +39,12 @@ body form {
           align-items: center;
 }
 
+body form .todo-add-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 body form .todo-add-item input {
   padding: .5rem;
   font-size: 2rem;
