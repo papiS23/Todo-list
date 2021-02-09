@@ -157,6 +157,7 @@ body .todo-container .todo-list .todo .complete-btn {
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
+  outline: none;
 }
 
 body .todo-container .todo-list .todo .complete-btn .fa-check {
@@ -170,6 +171,7 @@ body .todo-container .todo-list .todo .trash-btn {
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
+  outline: none;
 }
 
 body .todo-container .todo-list .todo .trash-btn .fa-trash {
